@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="">
     <h1>How much CO2 does the UK spew?</h1>
-
+<p>Using the Nation Grid API, this website can track the carbon intensity of each source of CO2 in the UK, as well as region specific details showing how much of a regions energy came from each source!</p>
     <generation
       v-if="generationData.data"
       :generationData='generationData'/>

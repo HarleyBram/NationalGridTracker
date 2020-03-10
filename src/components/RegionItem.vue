@@ -18,4 +18,10 @@ props: ['region'],
 </script>
 
 <style lang="css" scoped>
+
+li:hover {
+  background-color: beige;
+}
+
+
 </style>
